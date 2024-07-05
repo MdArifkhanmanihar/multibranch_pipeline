@@ -6,7 +6,6 @@ pipeline {
             steps {
                 script {
                     echo 'Building...'
-                    #sh 'npm install'
                 }
             }
         }
@@ -15,7 +14,6 @@ pipeline {
             steps {
                 script {
                     echo 'Testing...'
-                    #sh 'npm test'
                 }
             }
         }
