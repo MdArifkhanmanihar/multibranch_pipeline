@@ -12,6 +12,7 @@ pipeline {
             steps {
                 script {
                     sh '''
+                        echo 'Building'
                         ls -la
                         node --version
                         npm --version
@@ -26,6 +27,7 @@ pipeline {
             steps {
                 script {
                     echo 'Testing...'
+                    sh npm test
                 }
             }
         }
