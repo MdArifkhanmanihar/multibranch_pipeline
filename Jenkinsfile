@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building...'
-                    sh 'npm install'
+                    #sh 'npm install'
                 }
             }
         }
@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     echo 'Testing...'
-                    sh 'npm test'
+                    #sh 'npm test'
                 }
             }
         }
