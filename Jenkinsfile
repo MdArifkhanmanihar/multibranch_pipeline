@@ -27,7 +27,7 @@ pipeline {
             steps {
                 script {
                     echo 'Testing...'
-                    sh npm test
+                    sh npm run test
                 }
             }
         }
