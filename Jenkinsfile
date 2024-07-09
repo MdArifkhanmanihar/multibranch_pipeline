@@ -32,7 +32,7 @@ pipeline {
             }
             steps {
                 script {
-                    echo 'Testing auto building or scanning...'
+                    echo 'Testing dev branch for auto building and scanning...'
                     sh 'npm test'
                 }
             }
