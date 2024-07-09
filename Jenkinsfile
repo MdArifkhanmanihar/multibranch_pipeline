@@ -32,7 +32,7 @@ pipeline {
             }
             steps {
                 script {
-                    echo 'Testing main brnach for auto building or scanning...'
+                    echo 'Testing main brnach for auto scanning...'
                     sh 'npm test'
                 }
             }
